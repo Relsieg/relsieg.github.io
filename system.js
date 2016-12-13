@@ -875,7 +875,7 @@ var generateLegendary = function(){
 }
 
 var generateShiny = function(){
-	var chance = 8192;
+	var chance = 2048;
 	if(isActive("Shiny Charm")){
 		chance /= getOakItemBonus("Shiny Charm");
 	}
