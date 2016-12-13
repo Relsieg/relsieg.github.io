@@ -260,7 +260,7 @@ var canBreed = function(pokemon){
 }
 
 var generateEggShiny = function(){
-	var chance = 1024;
+	var chance = 100;
 	if(isActive("Shiny Charm")){
 		chance /= getOakItemBonus("Shiny Charm");
 	}
