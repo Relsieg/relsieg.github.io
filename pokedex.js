@@ -33,6 +33,10 @@ var showPokedex = function(){
 			{
 				html += "<p class='pokedexText'>Uncaptured</p>";
 			}
+			else
+			{
+				html += "<p class='pokedexText'>Captured: "+ player.catchNumbers[i] + "</p>";
+			}
 		}
 		else {
 			html += "<img class='center-block' id='unkownPokemonImage' src=images/unknownPokemon.png >";
