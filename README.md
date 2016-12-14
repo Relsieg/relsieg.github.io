@@ -7,3 +7,4 @@ Current differences include:
  - Shiny rate from breeding pokemon changed from 1024 to 50
  - Shiny rate from encountering pokemon changed from 8192 to 1024
  - "Wrong site" notification removed
+ - Check text for pokedex entry of seen but not captured pokemon
