@@ -28,7 +28,6 @@ var showPokedex = function(){
 				html += "<p class='pokedexText'>"+ pokemonList[i].name + "</p>";
 			}
 			html += "<p class='pokedexText'>Defeated: "+ player.defeatNumbers[i]+ "</p>";
-			html += "<p class='pokedexText'>Captured: "+ player.catchNumbers[i] + "</p>";
 			if(player.catchNumbers[i] == 0)
 			{
 				html += "<p class='pokedexText'>Uncaptured</p>";
