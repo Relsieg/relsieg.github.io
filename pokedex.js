@@ -29,6 +29,10 @@ var showPokedex = function(){
 			}
 			html += "<p class='pokedexText'>Defeated: "+ player.defeatNumbers[i]+ "</p>";
 			html += "<p class='pokedexText'>Captured: "+ player.catchNumbers[i] + "</p>";
+			if(player.catchNumbers[i] == 0)
+			{
+				html += "<p class='pokedexText'>Uncaptured</p>";
+			}
 		}
 		else {
 			html += "<img class='center-block' id='unkownPokemonImage' src=images/unknownPokemon.png >";
