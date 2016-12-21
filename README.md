@@ -8,3 +8,4 @@ Current differences include:
  - Shiny rate from encountering pokemon changed from 8192 to 1024
  - "Wrong site" notification removed
  - Check text for pokedex entry of seen but not captured pokemon
+ - Added missing pokemon to route 25, all 151 pokemon should be avalible

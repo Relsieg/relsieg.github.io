@@ -85,7 +85,7 @@ var pokemonsPerRoute = {
         water: ["Poliwag", "Goldeen", "Psyduck", "Krabby", "Seaking"]
     },
     25: {
-        land: ["Caterpie", "Metapod", "Weedle", "Kakuna", "Pidgey", "Pidgeotto", "Oddish", "Venonat", "Abra", "Bellsprout"],
+        land: ["Oddish", "Venonat", "Abra", "Bellsprout", "Exeggcute", "Rhyhorn", "Kangaskhan", "Scyther", "Pinsir", "Tauros"],
         water: ["Poliwag", "Goldeen", "Psyduck", "Krabby"]
     }
 }
