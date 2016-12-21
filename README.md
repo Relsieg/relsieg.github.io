@@ -9,3 +9,4 @@ Current differences include:
  - "Wrong site" notification removed
  - Check text for pokedex entry of seen but not captured pokemon
  - Added missing pokemon to route 25, all 151 pokemon should be avalible
+ - Changed water stone price from 5000 shards to 1000
