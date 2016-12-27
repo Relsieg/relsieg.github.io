@@ -304,7 +304,7 @@ var showCurQuest = function(){
 	html += 	"</div>"
 	html += "</div>";
 	html += "<div class= 'row' style='width:80%;margin-top:50px;'>"
-	// html += 	"<p>Quest difficulty: " + player.questDifficulty + "</p>";
+	html += 	"<p>Quest difficulty: " + player.questDifficulty + "</p>";
 	html += 	"<p>Quest points: " + numberWithCommas(player.questPoints) + "</p>";
 	html += 	"<p>Quests  completed: " + numberWithCommas(player.questCompletedTotal) + "</p>";
 	html += 	"<p>Completed today: " + player.questCompletedToday + "</p>";
