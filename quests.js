@@ -109,53 +109,53 @@ var IMPOSSIBLE = 4;
 //				Type 			Description   Difficulty Min Max Reward
 
 // Secondary routenumber
-addQuest('defeatPokemonRoute', 'Defeat x pokemon', EASY, 10, 30, 3);
+//addQuest('defeatPokemonRoute', 'Defeat x pokemon', EASY, 10, 30, 3);
 addQuest('defeatPokemonRoute', 'Defeat x pokemon', MEDIUM, 30, 50, 8);
 addQuest('defeatPokemonRoute', 'Defeat x pokemon', HARD, 50, 80, 20);
 addQuest('defeatPokemonRoute', 'Defeat x pokemon', IMPOSSIBLE, 80, 100, 50);
 
 // Secondary routenumber
-addQuest('capturePokemonRoute', 'Capture x pokemon', EASY, 10, 30, 4);
+//addQuest('capturePokemonRoute', 'Capture x pokemon', EASY, 10, 30, 4);
 addQuest('capturePokemonRoute', 'Capture x pokemon', MEDIUM, 30, 50, 10);
 addQuest('capturePokemonRoute', 'Capture x pokemon', HARD, 50, 80, 25);
 addQuest('capturePokemonRoute', 'Capture x pokemon', IMPOSSIBLE, 80, 100, 55);
-
+/*
 addQuest('findItems', 'Find x items', EASY, 1, 5, 5);
 addQuest('findItems', 'Find x items', MEDIUM, 5, 10, 12);
 addQuest('findItems', 'Find x items', HARD, 10, 15, 28);
 addQuest('findItems', 'Find x items', IMPOSSIBLE, 20, 25, 60);
-
-addQuest('gainMoney', 'Gain x money', EASY, 300, 500, 2)
+*/
+//addQuest('gainMoney', 'Gain x money', EASY, 300, 500, 2)
 addQuest('gainMoney', 'Gain x money', MEDIUM, 2500, 7000, 6)
 addQuest('gainMoney', 'Gain x money', HARD, 15000, 25000, 15)
 addQuest('gainMoney', 'Gain x money', IMPOSSIBLE, 50000, 100000, 30)
 
-addQuest('gainTokens', 'Gain x tokens', EASY, 30, 50, 2)
+//addQuest('gainTokens', 'Gain x tokens', EASY, 30, 50, 2)
 addQuest('gainTokens', 'Gain x tokens', MEDIUM, 100, 500, 6)
 addQuest('gainTokens', 'Gain x tokens', HARD, 1000, 2000, 15)
 addQuest('gainTokens', 'Gain x tokens', IMPOSSIBLE, 2500, 5000, 20)
 
-addQuest('captureShinies', 'Capture x shinies', IMPOSSIBLE, 1, 1, 80)
+//addQuest('captureShinies', 'Capture x shinies', IMPOSSIBLE, 1, 1, 80)
 
-addQuest('clearDungeons', 'Clear x dungeons', EASY, 1, 5, 9)
-addQuest('clearDungeons', 'Clear x dungeons', MEDIUM, 3, 8, 15)
+//addQuest('clearDungeons', 'Clear x dungeons', EASY, 1, 5, 9)
+//addQuest('clearDungeons', 'Clear x dungeons', MEDIUM, 3, 8, 15)
 // addQuest('clearDungeons', 'Clear x dungeons', HARD, 5, 10, 28)
 // addQuest('clearDungeons', 'Clear x dungeons', IMPOSSIBLE, 15, 25, 60)
 
-addQuest('clearGyms', 'Clear x gyms', EASY, 1, 5, 5)
-addQuest('clearGyms', 'Clear x gyms', MEDIUM, 3, 10, 10)
+//addQuest('clearGyms', 'Clear x gyms', EASY, 1, 5, 5)
+//addQuest('clearGyms', 'Clear x gyms', MEDIUM, 3, 10, 10)
 // addQuest('clearGyms', 'Clear x gyms', HARD, 1, 5, 23)
 // addQuest('clearGyms', 'Clear x gyms', IMPOSSIBLE, 1, 5, 55)
 
-addQuest('gainShards', 'Gain x shards', EASY, 25, 50, 5)
+//addQuest('gainShards', 'Gain x shards', EASY, 25, 50, 5)
 addQuest('gainShards', 'Gain x shards', MEDIUM, 50, 100, 10)
 addQuest('gainShards', 'Gain x shards', HARD, 100, 150, 20)
 addQuest('gainShards', 'Gain x shards', IMPOSSIBLE, 250, 500, 40)
 
 // addQuest('breedPokemon', 'Breed x Pokemon', EASY, 1, 3, 5)
 // addQuest('breedPokemon', 'Breed x Pokemon', MEDIUM, 3, 7, 11)
-addQuest('breedPokemon', 'Breed x Pokemon', HARD, 3, 7, 25)
-addQuest('breedPokemon', 'Breed x Pokemon', IMPOSSIBLE, 5, 10, 52);
+//addQuest('breedPokemon', 'Breed x Pokemon', HARD, 3, 7, 25)
+//addQuest('breedPokemon', 'Breed x Pokemon', IMPOSSIBLE, 5, 10, 52);
 
 
 
@@ -217,7 +217,7 @@ var skipQuestMoney = function(){
 
 var dailyReset = function(){
 	player.questSkipToday = 0;
-	player.questDifficulty = 1;
+	player.questDifficulty = 100;
 	player.questCompletedToday = 0;
 	generateDailyDeals();
 	console.log("Rise and shine, it's a new day!");
